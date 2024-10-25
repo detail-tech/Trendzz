@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326E180A2891C8380022A7FC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326E18092891C8380022A7FC /* HomeVC.swift */; };
+		32BB3A512891C0BA006A854A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB3A502891C0BA006A854A /* AppDelegate.swift */; };
+		32BB3A532891C0BA006A854A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB3A522891C0BA006A854A /* SceneDelegate.swift */; };
+		32BB3A582891C0BA006A854A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BB3A562891C0BA006A854A /* Main.storyboard */; };
+		32BB3A5A2891C0BB006A854A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BB3A592891C0BB006A854A /* Assets.xcassets */; };
+		32BB3A5D2891C0BB006A854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BB3A5B2891C0BB006A854A /* LaunchScreen.storyboard */; };
+		7DCFF2422CAC8FA80050C976 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFF2412CAC8FA80050C976 /* DetailVC.swift */; };
+		7DCFF2452CAC91F70050C976 /* DetailVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFF2432CAC91F70050C976 /* DetailVCTableViewCell.swift */; };
+		7DCFF2462CAC91F70050C976 /* DetailVCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DCFF2442CAC91F70050C976 /* DetailVCTableViewCell.xib */; };
+		94ABD011289278AE00BD2A52 /* ListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABD00F289278AE00BD2A52 /* ListTVC.swift */; };
+		94ABD012289278AE00BD2A52 /* ListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABD010289278AE00BD2A52 /* ListTVC.xib */; };
+		94ABD0142892841E00BD2A52 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABD0132892841E00BD2A52 /* Product.swift */; };
+		94ABD0162892881100BD2A52 /* AppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABD0152892881100BD2A52 /* AppNetworking.swift */; };
+		94ABD0182892BCAB00BD2A52 /* PresentedByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABD0172892BCAB00BD2A52 /* PresentedByVC.swift */; };
+		E7DEF449FBA72E24934AE333 /* Pods_Trendzz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63E43307E7F52F20AD3EC4E /* Pods_Trendzz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		326E18092891C8380022A7FC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		32BB3A4D2891C0BA006A854A /* Trendzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trendzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BB3A502891C0BA006A854A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32BB3A522891C0BA006A854A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32BB3A572891C0BA006A854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BB3A592891C0BB006A854A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32BB3A5C2891C0BB006A854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32BB3A5E2891C0BB006A854A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4283AF0D8891411321E1399E /* Pods-Trendzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendzz.debug.xcconfig"; path = "Target Support Files/Pods-Trendzz/Pods-Trendzz.debug.xcconfig"; sourceTree = "<group>"; };
+		46AE9AA9E914E10DA3173974 /* Pods-GridChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridChallenge.release.xcconfig"; path = "Target Support Files/Pods-GridChallenge/Pods-GridChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		7DCFF2412CAC8FA80050C976 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		7DCFF2432CAC91F70050C976 /* DetailVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVCTableViewCell.swift; sourceTree = "<group>"; };
+		7DCFF2442CAC91F70050C976 /* DetailVCTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVCTableViewCell.xib; sourceTree = "<group>"; };
+		94ABD00F289278AE00BD2A52 /* ListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTVC.swift; sourceTree = "<group>"; };
+		94ABD010289278AE00BD2A52 /* ListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTVC.xib; sourceTree = "<group>"; };
+		94ABD0132892841E00BD2A52 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		94ABD0152892881100BD2A52 /* AppNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetworking.swift; sourceTree = "<group>"; };
+		94ABD0172892BCAB00BD2A52 /* PresentedByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedByVC.swift; sourceTree = "<group>"; };
+		9BD11DBD57278CF8437DD0AD /* Pods-GridChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridChallenge.debug.xcconfig"; path = "Target Support Files/Pods-GridChallenge/Pods-GridChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9A063E88E30C1C71F22D99 /* Pods-Trendzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendzz.release.xcconfig"; path = "Target Support Files/Pods-Trendzz/Pods-Trendzz.release.xcconfig"; sourceTree = "<group>"; };
+		F63E43307E7F52F20AD3EC4E /* Pods_Trendzz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trendzz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BB3A4A2891C0BA006A854A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DEF449FBA72E24934AE333 /* Pods_Trendzz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B73813A28DE470F6C21017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F63E43307E7F52F20AD3EC4E /* Pods_Trendzz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32BB3A442891C0BA006A854A = {
+			isa = PBXGroup;
+			children = (
+				32BB3A4F2891C0BA006A854A /* Trendzz */,
+				32BB3A4E2891C0BA006A854A /* Products */,
+				AAC431BF675388C901924A50 /* Pods */,
+				01B73813A28DE470F6C21017 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32BB3A4E2891C0BA006A854A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BB3A4D2891C0BA006A854A /* Trendzz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BB3A4F2891C0BA006A854A /* Trendzz */ = {
+			isa = PBXGroup;
+			children = (
+				32BB3A502891C0BA006A854A /* AppDelegate.swift */,
+				32BB3A522891C0BA006A854A /* SceneDelegate.swift */,
+				326E18092891C8380022A7FC /* HomeVC.swift */,
+				7DCFF2412CAC8FA80050C976 /* DetailVC.swift */,
+				7DCFF2432CAC91F70050C976 /* DetailVCTableViewCell.swift */,
+				94ABD0172892BCAB00BD2A52 /* PresentedByVC.swift */,
+				94ABD0152892881100BD2A52 /* AppNetworking.swift */,
+				94ABD00F289278AE00BD2A52 /* ListTVC.swift */,
+				94ABD0132892841E00BD2A52 /* Product.swift */,
+				7DCFF2442CAC91F70050C976 /* DetailVCTableViewCell.xib */,
+				94ABD010289278AE00BD2A52 /* ListTVC.xib */,
+				32BB3A562891C0BA006A854A /* Main.storyboard */,
+				32BB3A592891C0BB006A854A /* Assets.xcassets */,
+				32BB3A5B2891C0BB006A854A /* LaunchScreen.storyboard */,
+				32BB3A5E2891C0BB006A854A /* Info.plist */,
+			);
+			path = Trendzz;
+			sourceTree = "<group>";
+		};
+		AAC431BF675388C901924A50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD11DBD57278CF8437DD0AD /* Pods-GridChallenge.debug.xcconfig */,
+				46AE9AA9E914E10DA3173974 /* Pods-GridChallenge.release.xcconfig */,
+				4283AF0D8891411321E1399E /* Pods-Trendzz.debug.xcconfig */,
+				AA9A063E88E30C1C71F22D99 /* Pods-Trendzz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BB3A4C2891C0BA006A854A /* Trendzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BB3A612891C0BB006A854A /* Build configuration list for PBXNativeTarget "Trendzz" */;
+			buildPhases = (
+				99C9D92B776497E9D9BAEC59 /* [CP] Check Pods Manifest.lock */,
+				32BB3A492891C0BA006A854A /* Sources */,
+				32BB3A4A2891C0BA006A854A /* Frameworks */,
+				32BB3A4B2891C0BA006A854A /* Resources */,
+				1F3C6C830E54AC632E5C56CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trendzz;
+			productName = GridChallenge;
+			productReference = 32BB3A4D2891C0BA006A854A /* Trendzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BB3A452891C0BA006A854A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					32BB3A4C2891C0BA006A854A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 32BB3A482891C0BA006A854A /* Build configuration list for PBXProject "Trendzz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BB3A442891C0BA006A854A;
+			productRefGroup = 32BB3A4E2891C0BA006A854A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BB3A4C2891C0BA006A854A /* Trendzz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BB3A4B2891C0BA006A854A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BB3A5D2891C0BB006A854A /* LaunchScreen.storyboard in Resources */,
+				94ABD012289278AE00BD2A52 /* ListTVC.xib in Resources */,
+				32BB3A5A2891C0BB006A854A /* Assets.xcassets in Resources */,
+				7DCFF2462CAC91F70050C976 /* DetailVCTableViewCell.xib in Resources */,
+				32BB3A582891C0BA006A854A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3C6C830E54AC632E5C56CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trendzz/Pods-Trendzz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trendzz/Pods-Trendzz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trendzz/Pods-Trendzz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C9D92B776497E9D9BAEC59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trendzz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BB3A492891C0BA006A854A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E180A2891C8380022A7FC /* HomeVC.swift in Sources */,
+				7DCFF2452CAC91F70050C976 /* DetailVCTableViewCell.swift in Sources */,
+				94ABD011289278AE00BD2A52 /* ListTVC.swift in Sources */,
+				32BB3A512891C0BA006A854A /* AppDelegate.swift in Sources */,
+				94ABD0182892BCAB00BD2A52 /* PresentedByVC.swift in Sources */,
+				32BB3A532891C0BA006A854A /* SceneDelegate.swift in Sources */,
+				7DCFF2422CAC8FA80050C976 /* DetailVC.swift in Sources */,
+				94ABD0142892841E00BD2A52 /* Product.swift in Sources */,
+				94ABD0162892881100BD2A52 /* AppNetworking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32BB3A562891C0BA006A854A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BB3A572891C0BA006A854A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BB3A5B2891C0BB006A854A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BB3A5C2891C0BB006A854A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BB3A5F2891C0BB006A854A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32BB3A602891C0BB006A854A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BB3A622891C0BB006A854A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4283AF0D8891411321E1399E /* Pods-Trendzz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCRLA2U5P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trendzz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Trendzz;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unstoppable.Trendzz1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BB3A632891C0BB006A854A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9A063E88E30C1C71F22D99 /* Pods-Trendzz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCRLA2U5P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trendzz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Trendzz;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unstoppable.Trendzz1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BB3A482891C0BA006A854A /* Build configuration list for PBXProject "Trendzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BB3A5F2891C0BB006A854A /* Debug */,
+				32BB3A602891C0BB006A854A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BB3A612891C0BB006A854A /* Build configuration list for PBXNativeTarget "Trendzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BB3A622891C0BB006A854A /* Debug */,
+				32BB3A632891C0BB006A854A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BB3A452891C0BA006A854A /* Project object */;
+}
